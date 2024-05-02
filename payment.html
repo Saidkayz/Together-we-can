@@ -68,19 +68,19 @@
           </div>
         </div>
       </header>
-      <form>
+      <form  action="stkpush.php" method="post">
         <div class="form-content">
           <div class="field">
-            <input type="tel" id="cardnumber" maxlength="20" />
+            <input name="phone" type="number" id="cardnumber" maxlength="20" />
             <span class="focus-bar"></span>
-            <label for="cardnumber">Enter Mpesa number</label>
+            <label  for="phone">Enter Mpesa number</label>
           </div>
           <div class="field">
-            <input type="text" autocorrect="off" spellcheck="false" id="cardholder" maxlength="25" />
+            <input name="amount" type="number" autocorrect="off" spellcheck="false" id="cardholder" maxlength="25" />
             <span class="focus-bar"></span>
             <label for="cardholder">Amount to give for Charity</label>
           </div>
-          <button style="background-color: rgb(51, 51, 220); border-radius: 5px; color: white; "><span>Submit</span></button>
+          <button type="submit" name="submit" style="background-color: rgb(51, 51, 220); border-radius: 5px; color: white; "><span>Submit</span></button>
           <a href="index.html" style="background-color: rgb(51, 51, 220); padding: 3px; border-radius: 5px; color: white;  margin-left: 150px;">Cancel </a>
           
         </div>
