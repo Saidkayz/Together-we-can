@@ -1,3 +1,4 @@
+
 <?php
 //YOU MPESA API KEYS
 $consumerKey = "HiHbGWAfDa4cykeIyMo1xWCUNHAdUvXGx9dwHkbo84DLp0o4"; //Fill with your app Consumer Key
