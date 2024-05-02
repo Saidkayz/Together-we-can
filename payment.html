@@ -174,48 +174,28 @@
         </div>
       </header>
   
-      <form>
-        <div class="form-content">
-          <div class="field">
-            <input type="tel" id="cardnumber" maxlength="20" />
-            <span class="focus-bar"></span>
-            <label for="cardnumber">Card number</label>
-          </div>
-          <div class="field">
-            <input type="text" autocorrect="off" spellcheck="false" id="cardholder" maxlength="25" />
-            <span class="focus-bar"></span>
-            <label for="cardholder">Card holder (Name on card)</label>
-          </div>
-          <div class="field-group">
-            <div class="col-50">
-              <label for="expires-month">Expire (Valid until)</label>   
-              <div class="field expire-date">
-                <div>
-                  <input type="tel" id="expires-month" placeholder="MM" allowed-pattern="[0-9]" maxlength="2">
-                  <span class="focus-bar"></span>
-                </div>
-                <div class="divider">/</div>
-                <div>
-                  <input type="tel" id="expires-year" placeholder="YY" allowed-pattern="[0-9]" maxlength="2">
-                  <span class="focus-bar"></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-50">
-              <div class="field ccv">
-                <input type="tel" id="ccv" autocomplete="off" maxlength="3" />
-                <span class="focus-bar"></span>
-                <label for="ccv">CCV</label>
-              </div>
-            </div>
-          </div>
-
-          <button style="background-color: rgb(51, 51, 220); border-radius: 5px; color: white; "><span>Submit</span></button>
-          <a href="index.html" style="background-color: rgb(51, 51, 220); padding: 3px; border-radius: 5px; color: white;  margin-left: 150px;">Cancel </a>
-          
+      <form id="paymentForm">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email-address" required />
         </div>
-        
+        <div class="form-group">
+          <label for="amount">Amount</label>
+          <input type="tel" id="amount" required />
+        </div>
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" />
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" />
+        </div>
+        <div class="form-submit">
+          <button type="submit" onclick="payWithPaystack()"> Pay </button>
+        </div>
       </form>
+      
       </div>
     </li>
    
