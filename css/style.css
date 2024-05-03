@@ -2663,15 +2663,15 @@ header #navbar li.sub-sub-menu {
     height: 100% !important;
     margin: 0;
     padding: 0;
-    border-left: 1px solid #cccccc;
-    border-right: 1px solid #cccccc;
+    border-left: 1px solid #6f6d6d;
+    border-right: 1px solid #989494;
     position: fixed;
     right: -300px;
     top: 0;
     z-index: 99999;
   }
   header #navbar a {
-    color: #000 !important;
+    color: #fafafa !important;
     font-weight: 600;
   }
   header #navbar a:hover {
