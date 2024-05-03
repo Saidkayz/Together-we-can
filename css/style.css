@@ -2659,14 +2659,14 @@ header #navbar li.sub-sub-menu {
   header #navbar {
     background: rgb(15, 14, 27,0.8);
     display: block !important;
-    width: 280px;
+    width: 200px;
     height: 100% !important;
     margin: 0;
     padding: 0;
     border-left: 1px solid #6f6d6d;
     border-right: 1px solid #989494;
     position: fixed;
-    right: -100px;
+    right: -300px;
     top: 0;
     z-index: 99999;
   }
