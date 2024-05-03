@@ -2666,7 +2666,7 @@ header #navbar li.sub-sub-menu {
     border-left: 1px solid #6f6d6d;
     border-right: 1px solid #989494;
     position: fixed;
-    right: -300px;
+    right: -200px;
     top: 0;
     z-index: 99999;
   }
