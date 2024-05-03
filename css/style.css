@@ -2657,7 +2657,7 @@ header #navbar li.sub-sub-menu {
     margin: 0;
   }
   header #navbar {
-    background: #fff;
+    background: rgba(24, 9, 238, 0.2);
     display: block !important;
     width: 280px;
     height: 100% !important;
@@ -8621,7 +8621,7 @@ footer .lower-footer p a {
 }
 
 .contact-page .contact-main-content .contact-form .form #success {
-  background-color: #009a00;
+  background-color: #1f61ad;
   border-left: 5px solid green;
   margin-bottom: 5px;
 }
