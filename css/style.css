@@ -2657,7 +2657,7 @@ header #navbar li.sub-sub-menu {
     margin: 0;
   }
   header #navbar {
-    background: rgb(15, 14, 27,0.8);
+    background: rgba(7, 3, 59, 0.8);
     display: block !important;
     width: 200px;
     height: 100% !important;
