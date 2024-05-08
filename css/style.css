@@ -4616,15 +4616,7 @@ footer .lower-footer p a {
   position: relative;
 }
 
-.help .video:before {
-  content: "";
-  background-color: rgba(61, 66, 75, 0.6);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
+
 
 .help .video i {
   background-color: #1f61ad;
