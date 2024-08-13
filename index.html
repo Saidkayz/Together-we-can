@@ -45,6 +45,44 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+    
+        .payment-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .payment-container h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .payment-button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .vip-button {
+            background-color: #ff5733;
+        }
+        .vip-button:hover {
+            background-color: #e74c3c;
+        }
+        .regular-button {
+            background-color: #3498db;
+        }
+        .regular-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
 
 </head>
 
@@ -97,7 +135,14 @@
 
 
         <!-- start of hero -->   
+       
+
         <section class="hero hero-slider-wrapper">
+            <div class="payment-container">
+                <h1>BOOK YOUR TICKET HERE!!</h1>
+                <button class="payment-button vip-button" onclick="window.location.href='vip-payment.html'">VIP Payment</button>
+                <a href="https://paystack.com/pay/hwn9apf8yy" class="btn theme-btn payment-button regular-button">Regular</a>
+            </div>
             <div class="hero-slider">
                 <div class="slide row">
                     <img src="images/slider/slide-1.jpg" alt>
